@@ -388,7 +388,7 @@ To prevent this performance issue, add `includes` to the above query, which send
 ```
 
 SQLite3 migration creates temporary tables with pre-migration data. To delete them after migration is complete set
-`mito:*migration-keep-temp-tables*` to `nil`. It has no effect on other drivers.
+`mito::*migration-keep-temp-tables*` to `nil`. It has no effect on other drivers.
 
 #### Auto migrations
 
